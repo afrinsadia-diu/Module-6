@@ -1,0 +1,18 @@
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 25px;
+    padding: auto;
+}
+nav a{
+    text-decoration: none;
+    color: darkred;
+}
+.dropdown{
+    display: none;
+}
+nav > ul > li:hover>ul{
+    display: block;
+}
